@@ -69,7 +69,7 @@
 
 #hero-area{
 text-align: center;
-background-image: url('./image/caleb-lumingkit-XnFkS9reTaU-unsplash.jpg');
+background-image: linear-gradient(rgba(0, 0, 0, 0.337), rgba(255, 0, 0, 0.315)) ,url('./image/caleb-lumingkit-XnFkS9reTaU-unsplash.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -78,4 +78,28 @@ height: 90vh;
 
 .header-container{
 padding-top: 100px;
+}
+
+.header-container h1{
+    background-color: rgba(3, 65, 126,0.7);
+    width: 500px;
+    font-size: 50px;
+    color: white;
+    margin: 20px auto;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+.header-container button{
+    font-size: 22px;
+    padding: 15px 25px;
+    margin-top: 20px;
+    background-color: rgba(3, 65, 126);
+    color: white;
+    border-radius: 30px 10px 30px 10px;
+    border: 4px solid green;
+    cursor: pointer;
+    transition: .5s;
+}
+.header-container button:hover{
+    background-color: black;
 }
