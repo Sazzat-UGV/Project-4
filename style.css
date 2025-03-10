@@ -3,7 +3,7 @@
     padding: 0;
 }
 #navigation{
-    background-color: tomato;
+    background-image: linear-gradient(dodgerblue,rgb(61, 126, 192));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,17 +12,70 @@
     color: white;
     margin-left: 50px;
 }
-#navigation ul{
+.logo h2 span{
+    color: yellow;
+}
+#navigation > ul{
     display: flex;
     margin-right: 50px;
 }
-#navigation ul li{
+#navigation ul > li{
     list-style: none;
-    margin: 0 5px;
     padding: 15px 0px;
+    transition: 1s;
 }
-#navigation ul li a{
+#navigation ul > li > a{
     text-decoration: none;
     color: white;
     font-size: 18px;
+    /* border-right: 1px solid white; */
+    padding: 15px 10px;
+    transition: .5s;
+}
+
+#navigation ul > li:last-child a{
+    border: none;
+}
+
+#navigation ul > li:hover {
+    background-color: blue;
+}
+.dropdown{
+    visibility: hidden;
+    opacity: 0;
+    background-color: dodgerblue !important;
+    margin-top: 15px;
+    width: 150px;
+    text-align: center;
+    border-right: none;
+    position: absolute;
+    transition: .5s;
+    transform: scaleY(0);
+    transform-origin: top center;
+    box-shadow: 3px 3px 20px black;
+}
+
+.dropdown li{
+    border-bottom: 1px solid white;
+}
+.dropdown li:first-child{
+    border-top: 1px solid white;
+}
+#navigation ul > li:hover .dropdown{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+#hero-area{
+text-align: center;
+background-image: url('./image/caleb-lumingkit-XnFkS9reTaU-unsplash.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 90vh;
+}
+
+.header-container{
+padding-top: 100px;
 }
