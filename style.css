@@ -279,6 +279,123 @@ font-size: 40px;
 .each_service h3{
     margin: 15px 0;
 }
-.each_service p{
+.pricint-area-container{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+}
+.pricing-area-title h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0;
+}
+.single-card{
+    width: 300px;
+    box-shadow: 5px 5px 10px gray;
 
+}
+.single-card-image img{
+    max-width: 100%;
+}
+.fourth_section{
+    width: 1000px;
+    margin: 0 auto;
+}
+#fourth_section{
+    background-color: whitesmoke;
+    padding-bottom: 100px;
+}
+.single-card h3{
+    margin: 10px 0;
+    font-size: 25px;
+    
+}
+.single-card p{
+    padding: 0 10px;
+}
+.pricing_per_month{
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;;
+    padding: 15px 0;
+    margin: 15px 20px;
+}
+.month-pricing-span1{
+    font-size: 25px;
+}
+.month-pricing-span2{
+    color: gray;
+}
+.single-card button{
+    text-decoration: none;
+background-color: darkred;
+padding: 12px 35px;
+color: white;
+font-size: 16px;
+border: none;
+outline: none;
+border-radius: 5px;
+transition: .5s;
+}
+.single-card button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.single-card a{
+    text-decoration: none;
+    margin: 15px 0;
+    display: inline-block;
+}
+.testimonial{
+    background-color: beige;
+}
+.testimonial .container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.testimonial-title{
+    text-align: center;
+}
+.testimonial-title h2{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.testimonial-title h4{
+   letter-spacing: 3px;
+   color: gray;
+}
+.testimonial-single-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px; 
+}
+.single-testo-card{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+}
+.testo-image{
+    width: 100px;
+    margin-right: 15px;
+}
+
+.testo-image img{
+    max-width: 100%;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.testo-text .name{
+font-size: 22px;
+}
+.testo-text .company{
+font-size: 14px;
+}
+.testimonial-single-parent{
+    padding: 50px 0;
+}
+.rating i{
+    color: #ffa534;
+}
+.rating{
+    margin-top: 3px;
 }
