@@ -149,3 +149,136 @@
     border: 2px solid green;
     transform: rotate(360deg);
 }
+
+#first-section {
+    background-color: #f1f1f1;
+}
+
+.first-section {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.learn_programming {
+    width: 300px;
+    text-align: center;
+    padding: 30px 10px;
+    transition: .5s;
+}
+
+.learn_programming i {
+    font-size: 50px;
+}
+
+.learn_programming h2 {
+    margin: 15px 0;
+}
+
+.learn_programming:hover {
+    box-shadow: 3px 3px 10px gray;
+}
+
+#second_section {}
+
+.smart_area_title {
+    padding: 50px 0;
+}
+
+.smart_area_title h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #01264b;
+    position: relative;
+}
+
+.smart_area_title h2::after {
+    content: '';
+    top: 50px;
+    left: 47%;
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50px;
+}
+.smart-area{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.smart-area-text{
+    width: 500px;
+    padding: 50px;
+}
+.smart-area-text h2{
+    margin: 20px 0px;
+    font-size: 20px;
+    text-align: justify;
+}
+.smart-area-text h4{
+    color: darkred;
+}
+.smart-area-text button{
+text-decoration: none;
+background-color: darkred;
+padding: 12px 35px;
+color: white;
+font-size: 16px;
+border: none;
+outline: none;
+border-radius: 5px;
+transition: .5s;
+}
+
+.smart-area-text button:hover{
+    background-color: red;
+}
+.service_area_title{
+    text-align: center;
+}
+#third_section{
+    padding: 40px 0;
+}
+.service_area_title h2{
+font-size: 40px;
+}
+.each_service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 60px 0;
+}
+#third_section{
+    background-color: #FAFAFA;
+}
+.third_section{
+    width: 1000px;
+    margin: 0 auto; 
+}
+.each_service .service{
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px ;
+    transition: .5s;
+}
+.each_service .service:hover{
+    border-radius: 20px;
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 30px ;
+}
+.each_service i{
+    font-size: 40px;
+    color: #830707;
+}
+.each_service h3{
+    margin: 15px 0;
+}
+.each_service p{
+
+}
