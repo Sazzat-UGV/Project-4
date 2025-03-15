@@ -107,3 +107,37 @@ header {
     padding: 50px 0;
     letter-spacing: 0.1em;
 }
+#smart_area{
+    background-color: #154360;
+    color: white;
+    padding: 50px 0 100px 0;
+}
+.smart_area{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.smart_area_text h2{
+    margin: 20px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.smart_area_text a{
+    text-decoration: none;
+    color: black;
+    background-color: bisque;
+    font-size: 22px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.smart_area_title{
+    text-align: center;
+    color: yellow;
+    font-size: 35px;
+    letter-spacing: 0.2em;
+    margin-bottom: 30px;
+}
